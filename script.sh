@@ -12,11 +12,11 @@ jest --init
 
 touch .gitignore
 echo 'node_modules
-dist'
+dist' >> .gitignore
 
 touch .eslintignore
 echo 'node_modules
-dist'
+dist' >> .eslintignore
 
 touch .lintstagedrc.json
 echo '{
